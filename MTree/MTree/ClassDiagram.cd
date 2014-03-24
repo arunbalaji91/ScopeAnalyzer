@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TMTree::MNode&lt;T&gt;">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEIBABAgAAAAAAASQAAQAgUAAAAAI=</HashCode>
+      <FileName>MNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMTree::Operation&lt;Node&gt;">
+    <Position X="1" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAEAAAAAAAAAEAAAAAAAEAEIAAAAA=</HashCode>
+      <FileName>MTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMTree::MTree&lt;Node&gt;">
+    <Position X="4" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAABAAAAAAAAAAIAAAAQAAAAgAAACiEgEAAEUAA=</HashCode>
+      <FileName>MTree.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pOper_" />
+      <Field Name="pRoot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TMTree::finderOp&lt;Node&gt;">
+    <Position X="1" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAiAAAgAAAAAAAEAAAAAAAAAAgQCAAAAAAEAAAAAA=</HashCode>
+      <FileName>MTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="Node" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MNode.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,29 @@
+﻿Build started 3/4/2014 11:59:09 AM.
+     1>Project "C:\Users\Kavish\Documents\Visual Studio 2013\Projects\ScopeAnalyzer\Parser\Parser\Parser.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D TEST_PARSER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\ScopeAnalyzer\XmlWriter.cpp ..\ActionsAndRules.cpp ..\ConfigureParser.cpp ..\FoldingRules.cpp ..\Parser.cpp ..\ScopeStack.cpp ..\SemiExpression.cpp ..\Tokenizer.cpp
+         Tokenizer.cpp
+         SemiExpression.cpp
+         ScopeStack.cpp
+         Parser.cpp
+         FoldingRules.cpp
+         ConfigureParser.cpp
+         ActionsAndRules.cpp
+         XmlWriter.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kavish\Documents\Visual Studio 2013\Projects\ScopeAnalyzer\Debug\Parser.exe" /INCREMENTAL /NOLOGO setargv.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kavish\Documents\Visual Studio 2013\Projects\ScopeAnalyzer\Debug\Parser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Kavish\Documents\Visual Studio 2013\Projects\ScopeAnalyzer\Debug\Parser.lib" /MACHINE:X86 /SAFESEH Debug\XmlWriter.obj
+         Debug\ActionsAndRules.obj
+         Debug\ConfigureParser.obj
+         Debug\FoldingRules.obj
+         Debug\Parser.obj
+         Debug\ScopeStack.obj
+         Debug\SemiExpression.obj
+         Debug\Tokenizer.obj
+     1>XmlWriter.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Parser.vcxproj -> C:\Users\Kavish\Documents\Visual Studio 2013\Projects\ScopeAnalyzer\Debug\Parser.exe
+     1>Done Building Project "C:\Users\Kavish\Documents\Visual Studio 2013\Projects\ScopeAnalyzer\Parser\Parser\Parser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.44

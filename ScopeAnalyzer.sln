@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScopeAnalyzer", "ScopeAnalyzer\ScopeAnalyzer.vcxproj", "{78A4EBBE-A328-4BA5-8599-458A52CCD573}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileSystemDemo", "FileSystem\FileSystemDemo\FileSystemDemo.vcxproj", "{EF4A3188-CA93-45A2-AB52-7548669E3AA8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parser", "Parser\Parser\Parser.vcxproj", "{F9D2AD28-3213-41E1-A289-42CD611ED2B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A4EBBE-A328-4BA5-8599-458A52CCD573}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78A4EBBE-A328-4BA5-8599-458A52CCD573}.Debug|Win32.Build.0 = Debug|Win32
+		{78A4EBBE-A328-4BA5-8599-458A52CCD573}.Release|Win32.ActiveCfg = Release|Win32
+		{78A4EBBE-A328-4BA5-8599-458A52CCD573}.Release|Win32.Build.0 = Release|Win32
+		{EF4A3188-CA93-45A2-AB52-7548669E3AA8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF4A3188-CA93-45A2-AB52-7548669E3AA8}.Debug|Win32.Build.0 = Debug|Win32
+		{EF4A3188-CA93-45A2-AB52-7548669E3AA8}.Release|Win32.ActiveCfg = Release|Win32
+		{EF4A3188-CA93-45A2-AB52-7548669E3AA8}.Release|Win32.Build.0 = Release|Win32
+		{F9D2AD28-3213-41E1-A289-42CD611ED2B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9D2AD28-3213-41E1-A289-42CD611ED2B5}.Debug|Win32.Build.0 = Debug|Win32
+		{F9D2AD28-3213-41E1-A289-42CD611ED2B5}.Release|Win32.ActiveCfg = Release|Win32
+		{F9D2AD28-3213-41E1-A289-42CD611ED2B5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

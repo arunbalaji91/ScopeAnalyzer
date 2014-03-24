@@ -1,0 +1,1 @@
+devenv ScopeAnalyzer.sln /rebuild debug
