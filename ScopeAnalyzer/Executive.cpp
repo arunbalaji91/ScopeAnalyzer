@@ -45,5 +45,11 @@ int main(int argc, char* argv[])
 	for (std::string file : myFiles)
 	PF.parserexecutive(file,swt);
 	std::cout << "\n\n";
+////////////////////////////////////////////////////////	
+	//code updated by:arunbalaji
+	for(int jam = 0; jam < 5; jam++)
+		std::cout<<"dummy"<<std::endl;
+	std::cout << "\n\n";
+///////////////////////////////////////////////////////	
 	return 0;
 }
